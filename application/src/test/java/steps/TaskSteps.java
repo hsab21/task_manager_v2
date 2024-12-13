@@ -1,12 +1,14 @@
 package steps;
 
 
+import com.taskmanager.application.TaskManagerApplication;
 import com.taskmanager.application.TaskService;
 import com.taskmanager.domain.Task;
 import io.cucumber.java.Before;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import org.springframework.boot.test.context.SpringBootTest;
 
 import java.util.List;
 
